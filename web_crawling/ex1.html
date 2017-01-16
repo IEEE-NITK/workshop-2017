@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>
+		Let your spidies crawl!
+	</title>
+	<style>
+		nav, section,article{
+			margin : 10px;
+			padding : 10px;
+			border:2px dashed red;
+		}
+		div{
+			margin : 10px;
+			padding : 10px;
+			border:2px dashed green;
+		}
+
+		li{
+			margin: 10px;
+			background-color: #cdcdcd;
+			padding: 5px;
+		}
+		
+		ul{
+			list-style-type: none;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to IEEE NITK CompSoc!</h1>
+	</header>
+	<nav>
+		<h2>These people are really cool:</h2>
+		<ul>
+			<li id="chandler">Chandler</li>
+			<li id="monica">Monica</li>
+			<li id="ross">Ross</li>
+			<li id="phoebe">Phoebe</li>
+			<li id="rachel">Rachel</li>
+			<li id="joey">Joey</li>
+		</ul>
+	</nav>
+	<section>
+		<div class="parent" id="first">
+			This is the first div
+		</div>
+		<div class="parent" id="second">
+			The second div, it got kids, too!
+			<div class="child">
+				The first child
+			</div>
+			<div class="child">
+				The second child
+			</div>
+		</div>
+	</section>
+	<article>
+		<p class="task" id="">
+			Task #1
+			<br>
+			Find the first 10 links in the google search results in Python or Something similar
+			<br>
+			Note: look closely for the "/q=?" parameter in the url to make search results
+		</p>
+		<p class="task">
+			Task #2
+			<br>
+			Make a wikipedia scrapper to print a neat 2 paragraph on any topic
+		</p>
+	</article>
+</body>
+</html>
